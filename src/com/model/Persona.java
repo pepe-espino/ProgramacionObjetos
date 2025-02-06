@@ -17,4 +17,8 @@ public class Persona {
 		this.fechaNacimiento = fechaNacimiento;
 	}
 	
+	public String toString() {
+		return this.nombre +" "+ this.apellido;
+	}
+	
 }

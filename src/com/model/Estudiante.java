@@ -21,5 +21,9 @@ public class Estudiante extends Persona {
 		this.cursoActual = cursoActual;
 	}
 	
+	public String toString() {
+		return super.toString()+" "+ this.cursoActual;
+	}
+	
 }
 

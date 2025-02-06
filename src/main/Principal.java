@@ -13,6 +13,8 @@ public class Principal {
 		Estudiante manuel = new Estudiante("Manuel", "Muñoz", "23423426R", LocalDate.of(2005, 9, 8));
 		
 		System.out.println();
+		
+		System.out.println(manuel);
 	}
 	
 }
